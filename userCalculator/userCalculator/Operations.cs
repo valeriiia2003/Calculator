@@ -3,8 +3,9 @@ namespace userCalculator
 {
 	public class Operations
 	{
-		public Operations()
+		public int AddNums(int firstArg,int secondArg)
 		{
+			return firstArg + secondArg;
 		}
 	}
 }
